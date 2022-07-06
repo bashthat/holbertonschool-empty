@@ -35,7 +35,7 @@ int _printf(const char * format, ...) {
 
     x = specifiers(format[i + 1], ap);
     if (x == -1 || x != 0)
-      i++
+      i++;
     if (x > 0)
       l += x;
     if (x == 0) {

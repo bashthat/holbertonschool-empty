@@ -16,7 +16,7 @@
 
 int _putchar(char c);
 void _strln(int);
-void _strcpy(void);
+char _strcpy(void);
 int _printf(const char *format, ...);
 int _specs(char nxt, va_list arg);
 
